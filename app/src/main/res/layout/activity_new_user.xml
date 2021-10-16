@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".NewUserActivity"
+        android:orientation="vertical"
+    android:background="@drawable/custom_background">
+
+    <EditText
+            android:id="@+id/NameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/LocationET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Location"
+        android:textAlignment="center"
+        android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/Submitbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:background="@color/teal_200"
+            android:textColor="#857D7D"/>
+
+        <Button
+            android:id="@+id/ViewUsersbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:background="@color/teal_200"
+            android:textColor="#857D7D"/>
+    </LinearLayout>
